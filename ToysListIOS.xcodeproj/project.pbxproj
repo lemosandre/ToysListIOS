@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1E27C626E2B53B0001FFA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E1E27C526E2B53B0001FFA0 /* GoogleService-Info.plist */; };
+		5E1E27C826E2BA3B0001FFA0 /* ToysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E27C726E2BA3B0001FFA0 /* ToysTableViewController.swift */; };
+		5E1E27CA26E313F20001FFA0 /* ToysItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E27C926E313F20001FFA0 /* ToysItem.swift */; };
+		5E1E27CC26E327D30001FFA0 /* ToysTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E27CB26E327D30001FFA0 /* ToysTableViewCell.swift */; };
 		5E27C33B26E1BDAC008CFCB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27C33A26E1BDAC008CFCB2 /* AppDelegate.swift */; };
 		5E27C33D26E1BDAC008CFCB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27C33C26E1BDAC008CFCB2 /* SceneDelegate.swift */; };
-		5E27C33F26E1BDAC008CFCB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27C33E26E1BDAC008CFCB2 /* ViewController.swift */; };
 		5E27C34226E1BDAC008CFCB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E27C34026E1BDAC008CFCB2 /* Main.storyboard */; };
 		5E27C34426E1BDAF008CFCB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E27C34326E1BDAF008CFCB2 /* Assets.xcassets */; };
 		5E27C34726E1BDAF008CFCB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E27C34526E1BDAF008CFCB2 /* LaunchScreen.storyboard */; };
+		5E27C34F26E1C19A008CFCB2 /* ToysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E27C34E26E1C19A008CFCB2 /* ToysViewController.swift */; };
+		9889E4B54AC97A5B6DACDC8E /* Pods_ToysListIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA933D2AE83B43258D25438 /* Pods_ToysListIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04CB7AC23BBE12F98EEA7F6D /* Pods-ToysListIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToysListIOS.release.xcconfig"; path = "Target Support Files/Pods-ToysListIOS/Pods-ToysListIOS.release.xcconfig"; sourceTree = "<group>"; };
+		3CA933D2AE83B43258D25438 /* Pods_ToysListIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToysListIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1E27C526E2B53B0001FFA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E1E27C726E2BA3B0001FFA0 /* ToysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysTableViewController.swift; sourceTree = "<group>"; };
+		5E1E27C926E313F20001FFA0 /* ToysItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysItem.swift; sourceTree = "<group>"; };
+		5E1E27CB26E327D30001FFA0 /* ToysTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysTableViewCell.swift; sourceTree = "<group>"; };
 		5E27C33726E1BDAC008CFCB2 /* ToysListIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToysListIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E27C33A26E1BDAC008CFCB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E27C33C26E1BDAC008CFCB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E27C33E26E1BDAC008CFCB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E27C34126E1BDAC008CFCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E27C34326E1BDAF008CFCB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E27C34626E1BDAF008CFCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E27C34826E1BDAF008CFCB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E27C34E26E1C19A008CFCB2 /* ToysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysViewController.swift; sourceTree = "<group>"; };
+		F4D9C0FAD8E83C6B67A8D9AB /* Pods-ToysListIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToysListIOS.debug.xcconfig"; path = "Target Support Files/Pods-ToysListIOS/Pods-ToysListIOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9889E4B54AC97A5B6DACDC8E /* Pods_ToysListIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FCE963E65887AAB28B89B5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4D9C0FAD8E83C6B67A8D9AB /* Pods-ToysListIOS.debug.xcconfig */,
+				04CB7AC23BBE12F98EEA7F6D /* Pods-ToysListIOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5E27C32E26E1BDAC008CFCB2 = {
 			isa = PBXGroup;
 			children = (
 				5E27C33926E1BDAC008CFCB2 /* ToysListIOS */,
 				5E27C33826E1BDAC008CFCB2 /* Products */,
+				4FCE963E65887AAB28B89B5E /* Pods */,
+				6C23810DBA9C4DF72742FF05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,25 @@
 			children = (
 				5E27C33A26E1BDAC008CFCB2 /* AppDelegate.swift */,
 				5E27C33C26E1BDAC008CFCB2 /* SceneDelegate.swift */,
-				5E27C33E26E1BDAC008CFCB2 /* ViewController.swift */,
+				5E27C34E26E1C19A008CFCB2 /* ToysViewController.swift */,
+				5E1E27C726E2BA3B0001FFA0 /* ToysTableViewController.swift */,
+				5E1E27CB26E327D30001FFA0 /* ToysTableViewCell.swift */,
 				5E27C34026E1BDAC008CFCB2 /* Main.storyboard */,
 				5E27C34326E1BDAF008CFCB2 /* Assets.xcassets */,
 				5E27C34526E1BDAF008CFCB2 /* LaunchScreen.storyboard */,
 				5E27C34826E1BDAF008CFCB2 /* Info.plist */,
+				5E1E27C526E2B53B0001FFA0 /* GoogleService-Info.plist */,
+				5E1E27C926E313F20001FFA0 /* ToysItem.swift */,
 			);
 			path = ToysListIOS;
+			sourceTree = "<group>";
+		};
+		6C23810DBA9C4DF72742FF05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CA933D2AE83B43258D25438 /* Pods_ToysListIOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E27C34B26E1BDAF008CFCB2 /* Build configuration list for PBXNativeTarget "ToysListIOS" */;
 			buildPhases = (
+				B01214777113DBB9379A2A2F /* [CP] Check Pods Manifest.lock */,
 				5E27C33326E1BDAC008CFCB2 /* Sources */,
 				5E27C33426E1BDAC008CFCB2 /* Frameworks */,
 				5E27C33526E1BDAC008CFCB2 /* Resources */,
+				76F0EB9286BCBC4395CCDDB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E27C34726E1BDAF008CFCB2 /* LaunchScreen.storyboard in Resources */,
+				5E1E27C626E2B53B0001FFA0 /* GoogleService-Info.plist in Resources */,
 				5E27C34426E1BDAF008CFCB2 /* Assets.xcassets in Resources */,
 				5E27C34226E1BDAC008CFCB2 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +171,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76F0EB9286BCBC4395CCDDB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToysListIOS/Pods-ToysListIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToysListIOS/Pods-ToysListIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToysListIOS/Pods-ToysListIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B01214777113DBB9379A2A2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToysListIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E27C33326E1BDAC008CFCB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E27C33F26E1BDAC008CFCB2 /* ViewController.swift in Sources */,
+				5E1E27CC26E327D30001FFA0 /* ToysTableViewCell.swift in Sources */,
+				5E27C34F26E1C19A008CFCB2 /* ToysViewController.swift in Sources */,
 				5E27C33B26E1BDAC008CFCB2 /* AppDelegate.swift in Sources */,
+				5E1E27CA26E313F20001FFA0 /* ToysItem.swift in Sources */,
+				5E1E27C826E2BA3B0001FFA0 /* ToysTableViewController.swift in Sources */,
 				5E27C33D26E1BDAC008CFCB2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +367,7 @@
 		};
 		5E27C34C26E1BDAF008CFCB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D9C0FAD8E83C6B67A8D9AB /* Pods-ToysListIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +387,7 @@
 		};
 		5E27C34D26E1BDAF008CFCB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CB7AC23BBE12F98EEA7F6D /* Pods-ToysListIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
